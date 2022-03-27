@@ -10,6 +10,8 @@ const config = {
   apiKey: "AIzaSyBK2VFn6WXqKhbiCHKpu48CB66dhNyNzok",
   authDomain: "react-cv-8faa1.firebaseapp.com",
   storageBucket: "gs://react-cv-8faa1.appspot.com",
+  databaseURL:
+    "https://react-cv-8faa1-default-rtdb.europe-west1.firebasedatabase.app/",
   // ...
 };
 firebase.initializeApp(config);
