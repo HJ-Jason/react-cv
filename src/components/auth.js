@@ -4,12 +4,14 @@ import React from "react";
 import StyledFirebaseAuth from "react-firebaseui/StyledFirebaseAuth";
 import firebase from "firebase/compat/app";
 import "firebase/compat/auth";
+import "firebase/compat/firestore";
 
 // Configure Firebase.
 const config = {
   apiKey: "AIzaSyBK2VFn6WXqKhbiCHKpu48CB66dhNyNzok",
   authDomain: "react-cv-8faa1.firebaseapp.com",
   storageBucket: "gs://react-cv-8faa1.appspot.com",
+  projectId: "react-cv-8faa1",
   // ...
 };
 firebase.initializeApp(config);

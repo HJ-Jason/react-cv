@@ -45,6 +45,9 @@ const AuthCheck = () => {
         <a href="/" onClick={WhenSignOut}>
           Se déconnecter
         </a>
+        <br></br>
+        <br></br>
+        <a href="./firestore">Firestore</a>
         <MyResume />
       </main>
     );
