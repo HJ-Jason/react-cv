@@ -8,13 +8,13 @@ const MyResume = () => {
       <body>
         <CV
           personalData={{
-            name: "Heldebaume Jason",
+            name: "",
             title: "Développeur Web",
             image: "https://bulma.io/images/placeholders/128x128.png",
             contacts: [
-              { type: "email", value: "jason.heldebaume03@gmail.com" },
-              { type: "phone", value: "07 86 70 08 92" },
-              { type: "website", value: "https://react-cv-8faa1.web.app/" },
+              { type: "email", value: "" },
+              { type: "phone", value: "" },
+              { type: "website", value: "" },
               { type: "github", value: "https://github.com/HJ-Jason" },
             ],
           }}
@@ -24,7 +24,7 @@ const MyResume = () => {
               title: "Télécharger mon CV",
               content: (
                 <a
-                  href="https://firebasestorage.googleapis.com/v0/b/react-cv-8faa1.appspot.com/o/CV_V2.pdf?alt=media&token=2a3a538e-aa6f-4b63-b32e-1eb101947260"
+                  href="www.google.com"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
